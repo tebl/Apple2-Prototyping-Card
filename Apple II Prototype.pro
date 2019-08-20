@@ -1,4 +1,4 @@
-update=20/08/2019 20:30:02
+update=20/08/2019 23:28:19
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=Apple2_bus
+LibName34=prototype
+LibName35=breakout
