@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name Apple2_bus)(type KiCad)(uri $KIPRJMOD/Apple2_bus.pretty)(options "")(descr ""))
-  (lib (name Prototype)(type KiCad)(uri $KIPRJMOD/prototype.pretty)(options "")(descr ""))
-  (lib (name Breakout)(type KiCad)(uri $KIPRJMOD/breakout.pretty)(options "")(descr ""))
-)
