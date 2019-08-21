@@ -31,9 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Apple2_bus
-LIBS:prototype
-LIBS:breakout
 LIBS:Apple II Prototype-cache
 EELAYER 25 0
 EELAYER END
