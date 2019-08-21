@@ -31,10 +31,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Apple2_bus
 LIBS:Apple II Prototype-cache
 EELAYER 25 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -234,7 +235,7 @@ Phi1
 Text Label 1800 4475 2    60   ~ 0
 Phi0
 Text Label 1800 4275 2    60   ~ 0
-~M2SEL
+~USER1
 Text Label 1800 4675 2    60   ~ 0
 ~DEVSEL
 Text Label 3450 6475 0    60   ~ 0
@@ -435,14 +436,10 @@ Text Label 4975 5250 2    60   ~ 0
 Phi1
 Text Label 4975 5450 2    60   ~ 0
 Phi0
-Text Label 4975 5350 2    60   ~ 0
-~M2SEL
 Text Label 4975 5550 2    60   ~ 0
 ~DEVSEL
 Text Label 4975 6450 2    60   ~ 0
 +12V
-NoConn ~ 5000 4950
-NoConn ~ 5500 4650
 Entry Wire Line
 	4025 1675 4125 1775
 Entry Wire Line
@@ -652,419 +649,419 @@ Wire Bus Line
 $Comp
 L Prototype_26 P1
 U 1 1 5D5C9F91
-P 11675 4950
-F 0 "P1" H 11675 4900 50  0001 C CNN
-F 1 "Prototype_26" H 11675 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 11675 4950 50  0001 C CNN
-F 3 "" H 11675 4950 50  0001 C CNN
-	1    11675 4950
+P 6900 2950
+F 0 "P1" H 6900 2900 50  0001 C CNN
+F 1 "Prototype_26" H 6900 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 6900 2950 50  0001 C CNN
+F 3 "" H 6900 2950 50  0001 C CNN
+	1    6900 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P2
 U 1 1 5D5CA881
-P 11725 4950
-F 0 "P2" H 11725 4900 50  0001 C CNN
-F 1 "Prototype_26" H 11725 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 11725 4950 50  0001 C CNN
-F 3 "" H 11725 4950 50  0001 C CNN
-	1    11725 4950
+P 6950 2950
+F 0 "P2" H 6950 2900 50  0001 C CNN
+F 1 "Prototype_26" H 6950 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 6950 2950 50  0001 C CNN
+F 3 "" H 6950 2950 50  0001 C CNN
+	1    6950 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P3
 U 1 1 5D5CA892
-P 11775 4950
-F 0 "P3" H 11775 4900 50  0001 C CNN
-F 1 "Prototype_26" H 11775 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 11775 4950 50  0001 C CNN
-F 3 "" H 11775 4950 50  0001 C CNN
-	1    11775 4950
+P 7000 2950
+F 0 "P3" H 7000 2900 50  0001 C CNN
+F 1 "Prototype_26" H 7000 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 7000 2950 50  0001 C CNN
+F 3 "" H 7000 2950 50  0001 C CNN
+	1    7000 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P4
 U 1 1 5D5CA8A3
-P 11825 4950
-F 0 "P4" H 11825 4900 50  0001 C CNN
-F 1 "Prototype_26" H 11825 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 11825 4950 50  0001 C CNN
-F 3 "" H 11825 4950 50  0001 C CNN
-	1    11825 4950
+P 7050 2950
+F 0 "P4" H 7050 2900 50  0001 C CNN
+F 1 "Prototype_26" H 7050 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 7050 2950 50  0001 C CNN
+F 3 "" H 7050 2950 50  0001 C CNN
+	1    7050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P5
 U 1 1 5D5CA8B4
-P 11875 4950
-F 0 "P5" H 11875 4900 50  0001 C CNN
-F 1 "Prototype_26" H 11875 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 11875 4950 50  0001 C CNN
-F 3 "" H 11875 4950 50  0001 C CNN
-	1    11875 4950
+P 7100 2950
+F 0 "P5" H 7100 2900 50  0001 C CNN
+F 1 "Prototype_26" H 7100 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 7100 2950 50  0001 C CNN
+F 3 "" H 7100 2950 50  0001 C CNN
+	1    7100 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P6
 U 1 1 5D5CA8C5
-P 11925 4950
-F 0 "P6" H 11925 4900 50  0001 C CNN
-F 1 "Prototype_26" H 11925 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 11925 4950 50  0001 C CNN
-F 3 "" H 11925 4950 50  0001 C CNN
-	1    11925 4950
+P 7150 2950
+F 0 "P6" H 7150 2900 50  0001 C CNN
+F 1 "Prototype_26" H 7150 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 7150 2950 50  0001 C CNN
+F 3 "" H 7150 2950 50  0001 C CNN
+	1    7150 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P7
 U 1 1 5D5CA8D6
-P 11975 4950
-F 0 "P7" H 11975 4900 50  0001 C CNN
-F 1 "Prototype_26" H 11975 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 11975 4950 50  0001 C CNN
-F 3 "" H 11975 4950 50  0001 C CNN
-	1    11975 4950
+P 7200 2950
+F 0 "P7" H 7200 2900 50  0001 C CNN
+F 1 "Prototype_26" H 7200 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 7200 2950 50  0001 C CNN
+F 3 "" H 7200 2950 50  0001 C CNN
+	1    7200 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P8
 U 1 1 5D5CAAB8
-P 12025 4950
-F 0 "P8" H 12025 4900 50  0001 C CNN
-F 1 "Prototype_26" H 12025 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 12025 4950 50  0001 C CNN
-F 3 "" H 12025 4950 50  0001 C CNN
-	1    12025 4950
+P 7250 2950
+F 0 "P8" H 7250 2900 50  0001 C CNN
+F 1 "Prototype_26" H 7250 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 7250 2950 50  0001 C CNN
+F 3 "" H 7250 2950 50  0001 C CNN
+	1    7250 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P9
 U 1 1 5D5CB287
-P 12075 4800
-F 0 "P9" H 12075 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12075 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12075 4800 50  0001 C CNN
-F 3 "" H 12075 4800 50  0001 C CNN
-	1    12075 4800
+P 7300 2800
+F 0 "P9" H 7300 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7300 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7300 2800 50  0001 C CNN
+F 3 "" H 7300 2800 50  0001 C CNN
+	1    7300 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P10
 U 1 1 5D5CB2C1
-P 12125 4800
-F 0 "P10" H 12125 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12125 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12125 4800 50  0001 C CNN
-F 3 "" H 12125 4800 50  0001 C CNN
-	1    12125 4800
+P 7350 2800
+F 0 "P10" H 7350 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7350 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7350 2800 50  0001 C CNN
+F 3 "" H 7350 2800 50  0001 C CNN
+	1    7350 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P11
 U 1 1 5D5CB3F5
-P 12175 4800
-F 0 "P11" H 12175 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12175 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12175 4800 50  0001 C CNN
-F 3 "" H 12175 4800 50  0001 C CNN
-	1    12175 4800
+P 7400 2800
+F 0 "P11" H 7400 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7400 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7400 2800 50  0001 C CNN
+F 3 "" H 7400 2800 50  0001 C CNN
+	1    7400 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P12
 U 1 1 5D5CB519
-P 12225 4800
-F 0 "P12" H 12225 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12225 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12225 4800 50  0001 C CNN
-F 3 "" H 12225 4800 50  0001 C CNN
-	1    12225 4800
+P 7450 2800
+F 0 "P12" H 7450 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7450 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7450 2800 50  0001 C CNN
+F 3 "" H 7450 2800 50  0001 C CNN
+	1    7450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P13
 U 1 1 5D5CB52A
-P 12275 4800
-F 0 "P13" H 12275 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12275 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12275 4800 50  0001 C CNN
-F 3 "" H 12275 4800 50  0001 C CNN
-	1    12275 4800
+P 7500 2800
+F 0 "P13" H 7500 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7500 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7500 2800 50  0001 C CNN
+F 3 "" H 7500 2800 50  0001 C CNN
+	1    7500 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P14
 U 1 1 5D5CB53B
-P 12325 4800
-F 0 "P14" H 12325 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12325 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12325 4800 50  0001 C CNN
-F 3 "" H 12325 4800 50  0001 C CNN
-	1    12325 4800
+P 7550 2800
+F 0 "P14" H 7550 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7550 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7550 2800 50  0001 C CNN
+F 3 "" H 7550 2800 50  0001 C CNN
+	1    7550 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P15
 U 1 1 5D5CB541
-P 12375 4800
-F 0 "P15" H 12375 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12375 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12375 4800 50  0001 C CNN
-F 3 "" H 12375 4800 50  0001 C CNN
-	1    12375 4800
+P 7600 2800
+F 0 "P15" H 7600 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7600 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7600 2800 50  0001 C CNN
+F 3 "" H 7600 2800 50  0001 C CNN
+	1    7600 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P16
 U 1 1 5D5CB547
-P 12425 4800
-F 0 "P16" H 12425 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12425 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12425 4800 50  0001 C CNN
-F 3 "" H 12425 4800 50  0001 C CNN
-	1    12425 4800
+P 7650 2800
+F 0 "P16" H 7650 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7650 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7650 2800 50  0001 C CNN
+F 3 "" H 7650 2800 50  0001 C CNN
+	1    7650 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P17
 U 1 1 5D5CB54D
-P 12475 4800
-F 0 "P17" H 12475 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12475 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12475 4800 50  0001 C CNN
-F 3 "" H 12475 4800 50  0001 C CNN
-	1    12475 4800
+P 7700 2800
+F 0 "P17" H 7700 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7700 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7700 2800 50  0001 C CNN
+F 3 "" H 7700 2800 50  0001 C CNN
+	1    7700 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P18
 U 1 1 5D5CB553
-P 12525 4800
-F 0 "P18" H 12525 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12525 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12525 4800 50  0001 C CNN
-F 3 "" H 12525 4800 50  0001 C CNN
-	1    12525 4800
+P 7750 2800
+F 0 "P18" H 7750 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7750 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7750 2800 50  0001 C CNN
+F 3 "" H 7750 2800 50  0001 C CNN
+	1    7750 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P19
 U 1 1 5D5CB55D
-P 12575 4800
-F 0 "P19" H 12575 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12575 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12575 4800 50  0001 C CNN
-F 3 "" H 12575 4800 50  0001 C CNN
-	1    12575 4800
+P 7800 2800
+F 0 "P19" H 7800 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7800 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7800 2800 50  0001 C CNN
+F 3 "" H 7800 2800 50  0001 C CNN
+	1    7800 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P20
 U 1 1 5D5CB563
-P 12625 4800
-F 0 "P20" H 12625 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12625 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12625 4800 50  0001 C CNN
-F 3 "" H 12625 4800 50  0001 C CNN
-	1    12625 4800
+P 7850 2800
+F 0 "P20" H 7850 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7850 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7850 2800 50  0001 C CNN
+F 3 "" H 7850 2800 50  0001 C CNN
+	1    7850 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P21
 U 1 1 5D5CB569
-P 12675 4800
-F 0 "P21" H 12675 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12675 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12675 4800 50  0001 C CNN
-F 3 "" H 12675 4800 50  0001 C CNN
-	1    12675 4800
+P 7900 2800
+F 0 "P21" H 7900 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7900 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7900 2800 50  0001 C CNN
+F 3 "" H 7900 2800 50  0001 C CNN
+	1    7900 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P22
 U 1 1 5D5CB56F
-P 12725 4800
-F 0 "P22" H 12725 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12725 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12725 4800 50  0001 C CNN
-F 3 "" H 12725 4800 50  0001 C CNN
-	1    12725 4800
+P 7950 2800
+F 0 "P22" H 7950 2750 50  0001 C CNN
+F 1 "Prototype_23" H 7950 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 7950 2800 50  0001 C CNN
+F 3 "" H 7950 2800 50  0001 C CNN
+	1    7950 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P23
 U 1 1 5D5CB575
-P 12775 4800
-F 0 "P23" H 12775 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12775 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12775 4800 50  0001 C CNN
-F 3 "" H 12775 4800 50  0001 C CNN
-	1    12775 4800
+P 8000 2800
+F 0 "P23" H 8000 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8000 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8000 2800 50  0001 C CNN
+F 3 "" H 8000 2800 50  0001 C CNN
+	1    8000 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P24
 U 1 1 5D5CB587
-P 12825 4800
-F 0 "P24" H 12825 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12825 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12825 4800 50  0001 C CNN
-F 3 "" H 12825 4800 50  0001 C CNN
-	1    12825 4800
+P 8050 2800
+F 0 "P24" H 8050 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8050 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8050 2800 50  0001 C CNN
+F 3 "" H 8050 2800 50  0001 C CNN
+	1    8050 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P25
 U 1 1 5D5CB58D
-P 12875 4800
-F 0 "P25" H 12875 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12875 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12875 4800 50  0001 C CNN
-F 3 "" H 12875 4800 50  0001 C CNN
-	1    12875 4800
+P 8100 2800
+F 0 "P25" H 8100 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8100 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8100 2800 50  0001 C CNN
+F 3 "" H 8100 2800 50  0001 C CNN
+	1    8100 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P26
 U 1 1 5D5CB593
-P 12925 4800
-F 0 "P26" H 12925 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12925 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12925 4800 50  0001 C CNN
-F 3 "" H 12925 4800 50  0001 C CNN
-	1    12925 4800
+P 8150 2800
+F 0 "P26" H 8150 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8150 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8150 2800 50  0001 C CNN
+F 3 "" H 8150 2800 50  0001 C CNN
+	1    8150 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P27
 U 1 1 5D5CB599
-P 12975 4800
-F 0 "P27" H 12975 4750 50  0001 C CNN
-F 1 "Prototype_23" H 12975 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 12975 4800 50  0001 C CNN
-F 3 "" H 12975 4800 50  0001 C CNN
-	1    12975 4800
+P 8200 2800
+F 0 "P27" H 8200 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8200 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8200 2800 50  0001 C CNN
+F 3 "" H 8200 2800 50  0001 C CNN
+	1    8200 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P28
 U 1 1 5D5CB59F
-P 13025 4800
-F 0 "P28" H 13025 4750 50  0001 C CNN
-F 1 "Prototype_23" H 13025 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 13025 4800 50  0001 C CNN
-F 3 "" H 13025 4800 50  0001 C CNN
-	1    13025 4800
+P 8250 2800
+F 0 "P28" H 8250 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8250 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8250 2800 50  0001 C CNN
+F 3 "" H 8250 2800 50  0001 C CNN
+	1    8250 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P29
 U 1 1 5D5CB5A9
-P 13075 4800
-F 0 "P29" H 13075 4750 50  0001 C CNN
-F 1 "Prototype_23" H 13075 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 13075 4800 50  0001 C CNN
-F 3 "" H 13075 4800 50  0001 C CNN
-	1    13075 4800
+P 8300 2800
+F 0 "P29" H 8300 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8300 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8300 2800 50  0001 C CNN
+F 3 "" H 8300 2800 50  0001 C CNN
+	1    8300 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P30
 U 1 1 5D5CB5AF
-P 13125 4800
-F 0 "P30" H 13125 4750 50  0001 C CNN
-F 1 "Prototype_23" H 13125 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 13125 4800 50  0001 C CNN
-F 3 "" H 13125 4800 50  0001 C CNN
-	1    13125 4800
+P 8350 2800
+F 0 "P30" H 8350 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8350 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8350 2800 50  0001 C CNN
+F 3 "" H 8350 2800 50  0001 C CNN
+	1    8350 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P31
 U 1 1 5D5CB5B5
-P 13175 4800
-F 0 "P31" H 13175 4750 50  0001 C CNN
-F 1 "Prototype_23" H 13175 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 13175 4800 50  0001 C CNN
-F 3 "" H 13175 4800 50  0001 C CNN
-	1    13175 4800
+P 8400 2800
+F 0 "P31" H 8400 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8400 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8400 2800 50  0001 C CNN
+F 3 "" H 8400 2800 50  0001 C CNN
+	1    8400 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P32
 U 1 1 5D5CB5BB
-P 13225 4800
-F 0 "P32" H 13225 4750 50  0001 C CNN
-F 1 "Prototype_23" H 13225 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 13225 4800 50  0001 C CNN
-F 3 "" H 13225 4800 50  0001 C CNN
-	1    13225 4800
+P 8450 2800
+F 0 "P32" H 8450 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8450 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8450 2800 50  0001 C CNN
+F 3 "" H 8450 2800 50  0001 C CNN
+	1    8450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P33
 U 1 1 5D5CB5C1
-P 13275 4800
-F 0 "P33" H 13275 4750 50  0001 C CNN
-F 1 "Prototype_23" H 13275 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 13275 4800 50  0001 C CNN
-F 3 "" H 13275 4800 50  0001 C CNN
-	1    13275 4800
+P 8500 2800
+F 0 "P33" H 8500 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8500 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8500 2800 50  0001 C CNN
+F 3 "" H 8500 2800 50  0001 C CNN
+	1    8500 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P34
 U 1 1 5D5CB6F6
-P 13325 4800
-F 0 "P34" H 13325 4750 50  0001 C CNN
-F 1 "Prototype_23" H 13325 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 13325 4800 50  0001 C CNN
-F 3 "" H 13325 4800 50  0001 C CNN
-	1    13325 4800
+P 8550 2800
+F 0 "P34" H 8550 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8550 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8550 2800 50  0001 C CNN
+F 3 "" H 8550 2800 50  0001 C CNN
+	1    8550 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_23 P35
 U 1 1 5D5CB707
-P 13375 4800
-F 0 "P35" H 13375 4750 50  0001 C CNN
-F 1 "Prototype_23" H 13375 4675 50  0001 C CNN
-F 2 "Prototype:prototype_23" H 13375 4800 50  0001 C CNN
-F 3 "" H 13375 4800 50  0001 C CNN
-	1    13375 4800
+P 8600 2800
+F 0 "P35" H 8600 2750 50  0001 C CNN
+F 1 "Prototype_23" H 8600 2675 50  0001 C CNN
+F 2 "Prototype:prototype_23" H 8600 2800 50  0001 C CNN
+F 3 "" H 8600 2800 50  0001 C CNN
+	1    8600 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P36
 U 1 1 5D5CB825
-P 13425 4950
-F 0 "P36" H 13425 4900 50  0001 C CNN
-F 1 "Prototype_26" H 13425 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 13425 4950 50  0001 C CNN
-F 3 "" H 13425 4950 50  0001 C CNN
-	1    13425 4950
+P 8650 2950
+F 0 "P36" H 8650 2900 50  0001 C CNN
+F 1 "Prototype_26" H 8650 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 8650 2950 50  0001 C CNN
+F 3 "" H 8650 2950 50  0001 C CNN
+	1    8650 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P37
 U 1 1 5D5CB83E
-P 13475 4950
-F 0 "P37" H 13475 4900 50  0001 C CNN
-F 1 "Prototype_26" H 13475 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 13475 4950 50  0001 C CNN
-F 3 "" H 13475 4950 50  0001 C CNN
-	1    13475 4950
+P 8700 2950
+F 0 "P37" H 8700 2900 50  0001 C CNN
+F 1 "Prototype_26" H 8700 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 8700 2950 50  0001 C CNN
+F 3 "" H 8700 2950 50  0001 C CNN
+	1    8700 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Prototype_26 P38
 U 1 1 5D5CB84F
-P 13525 4950
-F 0 "P38" H 13525 4900 50  0001 C CNN
-F 1 "Prototype_26" H 13525 4825 50  0001 C CNN
-F 2 "Prototype:prototype_26" H 13525 4950 50  0001 C CNN
-F 3 "" H 13525 4950 50  0001 C CNN
-	1    13525 4950
+P 8750 2950
+F 0 "P38" H 8750 2900 50  0001 C CNN
+F 1 "Prototype_26" H 8750 2825 50  0001 C CNN
+F 2 "Prototype:prototype_26" H 8750 2950 50  0001 C CNN
+F 3 "" H 8750 2950 50  0001 C CNN
+	1    8750 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1078,18 +1075,44 @@ F 3 "" H 5300 5250 50  0001 C CNN
 	1    5300 5250
 	-1   0    0    1   
 $EndComp
-Text Notes 12200 10925 0    60   ~ 0
+Text Notes 7350 7500 0    60   ~ 0
 Apple ][ Prototyping Board
-Text Notes 11825 10550 0    60   ~ 0
+Text Notes 7000 7125 0    60   ~ 0
 Apple ][ prototyping board, should be usable with all legacy systems with the same edge\nconnector including //e and //gs. Follows Apple tech notes for measurements and\npinouts:\n\nhttp://www.1000bit.it/support/manuali/apple/technotes/iigs/tn.iigs.028.html\nhttp://osites.tripod.com/peripheral.html
 Wire Notes Line
-	10650 3325 14125 3325
+	5875 1325 9350 1325
 Wire Notes Line
-	14125 3325 14125 5375
+	9350 1325 9350 3375
 Wire Notes Line
-	14125 5375 10650 5375
+	9350 3375 5875 3375
 Wire Notes Line
-	10650 5375 10650 3325
-Text Notes 10700 3275 0    60   ~ 0
+	5875 3375 5875 1325
+Text Notes 5925 1275 0    60   ~ 0
 Prototyping area
+Wire Wire Line
+	1225 3475 1825 3475
+Entry Wire Line
+	1125 3375 1225 3475
+Text Label 1800 3475 2    60   ~ 0
+COLOR_REF
+Wire Wire Line
+	3425 2875 4025 2875
+Entry Wire Line
+	4025 2875 4125 2975
+Text Label 3450 2875 0    60   ~ 0
+SYNC
+Text Label 4975 5350 2    60   ~ 0
+~USER1
+Wire Wire Line
+	4400 4950 5000 4950
+Entry Wire Line
+	4300 5050 4400 4950
+Wire Wire Line
+	5500 4650 6100 4650
+Entry Wire Line
+	6100 4650 6200 4550
+Text Label 4975 4950 2    60   ~ 0
+COLOR_REF
+Text Label 5525 4650 0    60   ~ 0
+SYNC
 $EndSCHEMATC

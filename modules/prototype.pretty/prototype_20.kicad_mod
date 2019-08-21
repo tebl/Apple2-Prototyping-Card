@@ -1,4 +1,4 @@
-(module prototype_24 (layer F.Cu) (tedit 5D5D3D78)
+(module prototype_20 (layer F.Cu) (tedit 5D5D4045)
   (fp_text reference J2 (at 0 5.08) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -25,8 +25,4 @@
   (pad 18 thru_hole circle (at 0 -43.18) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 19 thru_hole circle (at 0 -45.72) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 20 thru_hole circle (at 0 -48.26) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 21 thru_hole circle (at 0 -50.8) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 22 thru_hole circle (at 0 -53.34) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 23 thru_hole circle (at 0 -55.88) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 24 thru_hole circle (at 0 -58.42) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
 )
