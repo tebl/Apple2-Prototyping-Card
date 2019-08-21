@@ -1081,4 +1081,18 @@ F 3 "" H 5300 5250 50  0001 C CNN
 	1    5300 5250
 	-1   0    0    1   
 $EndComp
+Text Notes 12200 10925 0    60   ~ 0
+Apple ][ Prototyping Board
+Text Notes 11825 10550 0    60   ~ 0
+Apple ][ prototyping board, should be usable with all legacy systems with the same edge\nconnector including //e and //gs. Follows Apple tech notes for measurements and\npinouts:\n\nhttp://www.1000bit.it/support/manuali/apple/technotes/iigs/tn.iigs.028.html\nhttp://osites.tripod.com/peripheral.html
+Wire Notes Line
+	10650 3325 14125 3325
+Wire Notes Line
+	14125 3325 14125 5375
+Wire Notes Line
+	14125 5375 10650 5375
+Wire Notes Line
+	10650 5375 10650 3325
+Text Notes 10700 3275 0    60   ~ 0
+Prototyping area
 $EndSCHEMATC

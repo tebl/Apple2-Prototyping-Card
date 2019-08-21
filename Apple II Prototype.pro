@@ -1,4 +1,4 @@
-update=20/08/2019 23:28:19
+update=21/08/2019 14:05:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -64,3 +62,5 @@ LibName32=valves
 LibName33=Apple2_bus
 LibName34=prototype
 LibName35=breakout
+[general]
+version=1
