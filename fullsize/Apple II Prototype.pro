@@ -1,4 +1,4 @@
-update=21/08/2019 17:21:19
+update=21/08/2019 17:34:44
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -73,3 +71,5 @@ LibName31=contrib
 LibName32=valves
 LibName33=prototype
 LibName34=Apple2_bus
+[general]
+version=1
