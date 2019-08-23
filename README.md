@@ -10,14 +10,14 @@ The edge connector has 50 pins, a description of what function each of them serv
 
 ![Apple 2 edge connector](https://github.com/tebl/Apple2-Prototyping-Card/raw/master/gallery/preview_fullsize_pins.png)
 
-Several versions of the prototyping boards are available, with size and cost being the main difference between them at this point in time. The smaller one should fit within the cheapest option for most Chinese PCB fabrication services, and so would be the perfect place to start when experimenting with the easier stuff. The fullsize version should give all the space you need for most projects. See PCB layout previews below to get an impression of how these will look.
+Several versions of the prototyping boards are available, with size and cost being the main difference between them at this point in time. The compact (smaller) card should fit within the cheapest option for most Chinese PCB fabrication services, and so would be the perfect place to start when experimenting with the easier stuff. The fullsize version should give all the space you need for most projects. See PCB layout previews below to get an impression of how these will look.
 
-![Small PCB](https://github.com/tebl/Apple2-Prototyping-Card/raw/master/gallery/preview_small.png)
+![Compact PCB](https://github.com/tebl/Apple2-Prototyping-Card/raw/master/gallery/preview_small.png)
 ![Fullsize PCB](https://github.com/tebl/Apple2-Prototyping-Card/raw/master/gallery/preview_fullsize.png)
 
 ## Versions available
-The following versions are currently available, I use PCBway and the small one should be around 5$ for 10 of them. Click the cards to go to the relevant details for the card, the order URLs point to my shared projects on PCBway:
-- [Small prototyping card](https://github.com/tebl/Apple2-Prototyping-Card/tree/master/small)
+The following versions are currently available, I use PCBway and the compact/small one should be around 5$ for 10 of them. Click the cards to go to the relevant details for the card, the order URLs point to my shared projects on PCBway:
+- [Compact prototyping card](https://github.com/tebl/Apple2-Prototyping-Card/tree/master/small)
 - [Fullsize prototyping card](https://github.com/tebl/Apple2-Prototyping-Card/tree/master/fullsize)
 
 If you would like to have a copy of one or more modules, what you'll need to do is zip up the contents of the export directory for each module and give that to your favourite PCB fabrication plant. Personally I prefer to use [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=88707), the small one fits within the 5$ price and new accounts even get the first one free! Please use the supplied link when signing up to help me support this project, I'll get a small discount on future orders and hopefully I can afford to keep developing new and exciting stuff for old machines.
